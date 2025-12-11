@@ -15,7 +15,6 @@ Sistema completo de agente de IA para agendamento de consultas médicas, com int
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [API Endpoints](#-api-endpoints)
 - [Funcionalidades](#-funcionalidades)
-- [Testes](#-testes)
 - [Troubleshooting](#-troubleshooting)
 
 ## 🎯 Visão Geral
@@ -80,7 +79,6 @@ Esta seção mapeia os requisitos especificados em [specs.md](specs.md) com o qu
 
 | Item | Status | Detalhes |
 |------|--------|----------|
-| **Testes Automatizados** | ✅ Implementado | 116+ testes no orchestrator, testes no backend |
 | **LangChain** | ✅ Implementado | Orquestração completa com LangChain |
 | **Logging de Conversas** | ✅ Implementado | Logs detalhados em todos os serviços |
 | **Banco de Dados Real** | ✅ Implementado | MongoDB com seed automático |
@@ -456,22 +454,6 @@ cd backend
 dotnet test
 ```
 
-### Orchestrator
-
-```bash
-cd orchestrator
-npm test                    # Todos os testes
-npm run test:watch         # Modo watch
-npm run test:coverage      # Com coverage
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm run build              # Verifica build
-```
-
 ## 🐛 Troubleshooting
 
 ### Problemas Comuns
@@ -534,8 +516,3 @@ docker-compose down --rmi all
 # Reconstrua do zero
 docker-compose up --build
 ```
-
-## 📚 Documentação Adicional
-
-- [Clean Code & SOLID Review](/.gemini/antigravity/brain/*/walkthrough.md)
-- [Swagger UI](http://localhost:5000/swagger) - Documentação interativa da API
