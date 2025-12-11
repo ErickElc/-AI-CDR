@@ -14,7 +14,6 @@
 - [Setup e Instalação](#setup-e-instalação)
 - [API Endpoints](#api-endpoints)
 - [Configuração](#configuração)
-- [Testes](#testes)
 - [Docker](#docker)
 - [Atendimento aos Requisitos](#atendimento-aos-requisitos)
 
@@ -632,63 +631,6 @@ Collections criadas automaticamente:
 
 ---
 
-## 🧪 Testes
-
-### Executar Testes
-
-```bash
-# Todos os testes unitários
-npm test
-
-# Watch mode
-npm run test:watch
-
-# Com coverage
-npm run test:coverage
-
-# Apenas integration tests
-npm run test:integration
-```
-
-### Cobertura de Testes
-
-Testes unitários implementados:
-
-- ✅ `short-term-memory.test.ts` - Gerenciamento de sessões
-- ✅ `embedding-service.test.ts` - Geração de embeddings
-- ✅ `slot-extractor.test.ts` - Extração de slots
-- ✅ `function-executor.test.ts` - Execução de funções
-- ✅ `agent-conversational-flow.test.ts` - Fluxos conversacionais completos
-
-**Total**: 70+ testes unitários
-
-### Testes Manuais Recomendados
-
-#### Teste 1: Fluxo Completo de Agendamento
-
-1. Inicializar sessão
-2. Enviar: "Oi"
-3. Enviar: "Quero agendar dermatologia para João Silva amanhã às 14h na unidade Centro"
-4. Confirmar com: "Sim, confirma"
-5. Verificar agendamento criado no backend
-
-#### Teste 2: Fluxo Incremental
-
-1. Enviar: "Olá"
-2. Enviar: "Quero marcar consulta"
-3. Enviar: "Dermatologia"
-4. Enviar: "João Silva"
-5. Enviar: "Centro"
-6. Enviar: "Amanhã às 14h"
-7. Confirmar
-
-#### Teste 3: FAQ
-
-1. Enviar: "Quais procedimentos vocês oferecem?"
-2. Verificar resposta com base no FAQ RAG
-
----
-
 ## 🐳 Docker
 
 ### Build da Imagem
@@ -825,8 +767,6 @@ Detecção automática de necessidade de humano:
 - ✅ **Prompt base do agente**: `src/prompts/system-prompt.ts`
 
 ### Diferenciais Implementados
-
-- ✅ **Testes automatizados**: 70+ testes unitários com Jest
 - ✅ **Logging de conversas**: Todas as mensagens são logadas
 - ✅ **Integração com banco real**: Via backend .NET API
 - ✅ **Interface funcional**: React frontend integrado
@@ -868,17 +808,3 @@ Os prompts foram cuidadosamente projetados para:
 - Validação de entrada em todos os endpoints
 - Rate limiting recomendado em produção
 - CORS configurado adequadamente
-
----
-
-## 🤝 Contribuição e Suporte
-
-Para dúvidas ou melhorias, abra uma issue no repositório.
-
-**Desenvolvido como prova técnica para High Agents AI**
-
----
-
-## 📄 Licença
-
-MIT
