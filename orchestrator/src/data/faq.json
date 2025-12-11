@@ -1,0 +1,323 @@
+[
+  {
+    "id": "faq-1",
+    "question": "Quais procedimentos vocês oferecem?",
+    "answer": "Oferecemos diversos procedimentos incluindo consultas gerais, dermatologia, limpeza de pele, tratamentos estéticos faciais e corporais, e procedimentos dermatológicos. Para ver a lista completa de procedimentos disponíveis, posso consultar para você.",
+    "category": "procedimentos",
+    "keywords": [
+      "procedimentos",
+      "tratamentos",
+      "serviços",
+      "o que fazem",
+      "tipos"
+    ]
+  },
+  {
+    "id": "faq-2",
+    "question": "Quais são os horários de funcionamento?",
+    "answer": "Funcionamos de segunda a sexta-feira, das 08:00 às 12:00 e das 14:00 às 18:00. Não atendemos aos sábados, domingos e feriados.",
+    "category": "horarios",
+    "keywords": [
+      "horário",
+      "funcionamento",
+      "quando",
+      "aberto",
+      "atendimento",
+      "horarios"
+    ]
+  },
+  {
+    "id": "faq-3",
+    "question": "Onde ficam as unidades?",
+    "answer": "Temos unidades em diferentes localidades para sua comodidade. As unidades disponíveis incluem Centro, Zona Sul e outras. Posso listar todas as unidades disponíveis para você escolher a mais conveniente.",
+    "category": "unidades",
+    "keywords": [
+      "unidades",
+      "localização",
+      "endereço",
+      "onde fica",
+      "clinicas"
+    ]
+  },
+  {
+    "id": "faq-4",
+    "question": "Como faço para agendar?",
+    "answer": "É muito simples agendar! Basta me informar: 1) Seu nome completo, 2) O procedimento desejado, 3) A unidade de sua preferência, 4) O dia e horário que você tem disponível. Eu verifico a disponibilidade em tempo real e confirmo o agendamento para você imediatamente.",
+    "category": "agendamento",
+    "keywords": [
+      "agendar",
+      "marcar",
+      "consulta",
+      "como",
+      "fazer agendamento"
+    ]
+  },
+  {
+    "id": "faq-5",
+    "question": "Posso reagendar ou cancelar meu agendamento?",
+    "answer": "Sim, você pode reagendar ou cancelar seu agendamento. Me informe o nome e a data do agendamento atual, e eu posso ajudar a encontrar um novo horário disponível ou processar o cancelamento.",
+    "category": "agendamento",
+    "keywords": [
+      "reagendar",
+      "cancelar",
+      "mudar",
+      "remarcar",
+      "trocar horário"
+    ]
+  },
+  {
+    "id": "faq-6",
+    "question": "Quanto tempo dura uma consulta ou procedimento?",
+    "answer": "A duração varia conforme o procedimento escolhido. Consultas gerais geralmente duram 30 minutos, enquanto procedimentos estéticos e dermatológicos podem levar de 30 minutos a 1 hora. Posso informar a duração específica do procedimento que você escolher.",
+    "category": "procedimentos",
+    "keywords": [
+      "duração",
+      "tempo",
+      "quanto demora",
+      "dura"
+    ]
+  },
+  {
+    "id": "faq-7",
+    "question": "Preciso levar algum documento para a consulta?",
+    "answer": "Sim, é importante levar um documento de identidade com foto (RG ou CNH) e, se tiver, seu cartão do plano de saúde. Para primeira consulta, chegue alguns minutos antes para o cadastro.",
+    "category": "consulta",
+    "keywords": [
+      "documentos",
+      "levar",
+      "preciso",
+      "necessário",
+      "cadastro"
+    ]
+  },
+  {
+    "id": "faq-8",
+    "question": "Aceita plano de saúde?",
+    "answer": "Sim, aceitamos diversos planos de saúde. Para confirmar se o seu plano é aceito e verificar cobertura, me informe qual plano você possui.",
+    "category": "pagamento",
+    "keywords": [
+      "plano",
+      "saúde",
+      "convênio",
+      "aceita",
+      "cobertura"
+    ]
+  },
+  {
+    "id": "faq-9",
+    "question": "Qual o valor da consulta particular?",
+    "answer": "Os valores dos nossos procedimentos são: Consulta Geral - R$ 150, Dermatologia - R$ 200, Limpeza de Pele - R$ 180, Peeling Químico - R$ 300, Preenchimento Facial - R$ 800, Botox - R$ 600, Tratamento de Acne - R$ 250, Remoção de Verrugas - R$ 120. Todos os valores são para atendimento particular.",
+    "category": "pagamento",
+    "keywords": [
+      "valor",
+      "preço",
+      "quanto custa",
+      "particular",
+      "pagar"
+    ]
+  },
+  {
+    "id": "faq-10",
+    "question": "Como funciona o pagamento?",
+    "answer": "Aceitamos pagamento em dinheiro, cartão de débito, crédito e PIX. O pagamento é realizado no momento da consulta ou procedimento. Para procedimentos de maior valor, também oferecemos parcelamento.",
+    "category": "pagamento",
+    "keywords": [
+      "pagamento",
+      "forma",
+      "pagar",
+      "pix",
+      "cartão",
+      "parcelamento"
+    ]
+  },
+  {
+    "id": "faq-11",
+    "question": "Tem estacionamento?",
+    "answer": "Sim, todas as nossas unidades possuem estacionamento gratuito para pacientes. A unidade Centro tem estacionamento conveniado na mesma rua.",
+    "category": "unidades",
+    "keywords": [
+      "estacionamento",
+      "carro",
+      "vaga",
+      "estacionar"
+    ]
+  },
+  {
+    "id": "faq-12",
+    "question": "Atendem crianças?",
+    "answer": "Sim, atendemos pacientes de todas as idades, incluindo crianças e adolescentes. Para consultas pediátricas, recomendamos nossa unidade Centro que tem especialistas em pediatria.",
+    "category": "consulta",
+    "keywords": [
+      "crianças",
+      "pediatria",
+      "bebê",
+      "infantil",
+      "menor"
+    ]
+  },
+  {
+    "id": "faq-13",
+    "question": "O que é uma Consulta Geral?",
+    "answer": "A Consulta Geral é uma avaliação feita por um médico generalista, que pode ajudar a diagnosticar e tratar uma variedade de condições de saúde, além de fornecer orientações para cuidados de saúde e prevenção de doenças. É uma boa opção para quem precisa de uma avaliação inicial ou acompanhamento de saúde. Duração: 30 minutos. Valor: R$ 150.",
+    "category": "procedimentos",
+    "keywords": [
+      "consulta geral",
+      "o que é",
+      "generalista",
+      "clínico geral",
+      "avaliação",
+      "check-up"
+    ]
+  },
+  {
+    "id": "faq-14",
+    "question": "O que é Dermatologia?",
+    "answer": "Dermatologia é a especialidade médica que cuida da saúde da pele, cabelo e unhas. Na consulta dermatológica, o médico pode diagnosticar e tratar doenças de pele como acne, manchas, eczemas, psoríase, além de realizar prevenção e tratamento de câncer de pele. Também orientamos sobre cuidados com a pele e tratamentos estéticos. Duração: 30 minutos. Valor: R$ 200.",
+    "category": "procedimentos",
+    "keywords": [
+      "dermatologia",
+      "pele",
+      "dermatologista",
+      "o que é",
+      "cabelo",
+      "unhas"
+    ]
+  },
+  {
+    "id": "faq-15",
+    "question": "O que é Limpeza de Pele?",
+    "answer": "A Limpeza de Pele é um procedimento estético facial que remove impurezas, cravos e células mortas da pele. É realizado por profissionais especializados e ajuda a manter a pele saudável, prevenir acne e melhorar a aparência. Inclui esfoliação, extração de cravos, hidratação e proteção. Recomenda-se fazer mensalmente. Duração: 30 minutos. Valor: R$ 180.",
+    "category": "procedimentos",
+    "keywords": [
+      "limpeza de pele",
+      "facial",
+      "cravos",
+      "espinhas",
+      "o que é",
+      "estética"
+    ]
+  },
+  {
+    "id": "faq-16",
+    "question": "O que é Peeling Químico?",
+    "answer": "O Peeling Químico é um tratamento dermatológico que utiliza substâncias químicas para promover a renovação celular da pele. Remove camadas superficiais da pele, melhorando manchas, rugas finas, acne e textura irregular. Existem diferentes intensidades (superficial, médio, profundo) escolhidas conforme o objetivo. Duração: 30 minutos. Valor: R$ 300.",
+    "category": "procedimentos",
+    "keywords": [
+      "peeling",
+      "químico",
+      "manchas",
+      "renovação",
+      "o que é",
+      "rejuvenescimento"
+    ]
+  },
+  {
+    "id": "faq-17",
+    "question": "O que é Preenchimento Facial?",
+    "answer": "O Preenchimento Facial é um procedimento estético que utiliza substâncias (geralmente ácido hialurônico) para preencher rugas, sulcos e aumentar volume em áreas do rosto como lábios, maçãs do rosto e contorno facial. É minimamente invasivo, com resultados imediatos e naturais. Duração do efeito varia de 6 a 18 meses. Duração do procedimento: 30 minutos. Valor: R$ 800.",
+    "category": "procedimentos",
+    "keywords": [
+      "preenchimento",
+      "facial",
+      "ácido hialurônico",
+      "rugas",
+      "o que é",
+      "lábios"
+    ]
+  },
+  {
+    "id": "faq-18",
+    "question": "O que é Botox?",
+    "answer": "Botox (toxina botulínica) é um procedimento estético que relaxa os músculos faciais, suavizando rugas e linhas de expressão, especialmente na testa, entre as sobrancelhas e ao redor dos olhos. É minimamente invasivo, com aplicação rápida e resultados que duram de 4 a 6 meses. Também pode ser usado para tratamento de enxaqueca e hiperidrose (suor excessivo). Duração: 30 minutos. Valor: R$ 600.",
+    "category": "procedimentos",
+    "keywords": [
+      "botox",
+      "toxina botulínica",
+      "rugas",
+      "expressão",
+      "o que é",
+      "enxaqueca"
+    ]
+  },
+  {
+    "id": "faq-19",
+    "question": "O que é Tratamento de Acne?",
+    "answer": "O Tratamento de Acne é um acompanhamento dermatológico especializado para controlar e tratar acne (espinhas, cravos, inflamações). Pode incluir medicamentos tópicos, orais, limpezas de pele específicas, peelings e orientações sobre cuidados diários. O tratamento é personalizado conforme o tipo e gravidade da acne. Duração: 30 minutos. Valor: R$ 250.",
+    "category": "procedimentos",
+    "keywords": [
+      "acne",
+      "espinhas",
+      "cravos",
+      "tratamento",
+      "o que é",
+      "pele oleosa"
+    ]
+  },
+  {
+    "id": "faq-20",
+    "question": "O que é Remoção de Verrugas?",
+    "answer": "A Remoção de Verrugas é um procedimento dermatológico para eliminar verrugas (lesões causadas pelo vírus HPV). Pode ser feito por diferentes métodos: crioterapia (congelamento), cauterização (queima), laser ou cirurgia, dependendo do tamanho e localização. É rápido e seguro, geralmente com anestesia local. Duração: 30 minutos. Valor: R$ 120.",
+    "category": "procedimentos",
+    "keywords": [
+      "verrugas",
+      "remov​ção",
+      "hpv",
+      "lesão",
+      "o que é",
+      "crioterapia"
+    ]
+  },
+  {
+    "id": "faq-21",
+    "question": "Qual a diferença entre Consulta Geral e Dermatologia?",
+    "answer": "A Consulta Geral é feita por um médico generalista que trata diversas condições de saúde de forma geral. Já a Dermatologia é uma especialidade focada exclusivamente em doenças e tratamentos da pele, cabelo e unhas. Se você tem um problema específico de pele, manchas, acne ou quer fazer tratamento estético, o ideal é Dermatologia. Para avaliação de saúde geral, a Consulta Geral é mais indicada.",
+    "category": "procedimentos",
+    "keywords": [
+      "diferença",
+      "consulta",
+      "dermatologia",
+      "qual escolher",
+      "comparação"
+    ]
+  },
+  {
+    "id": "faq-22",
+    "question": "Preciso de encaminhamento médico para fazer procedimentos estéticos?",
+    "answer": "Não, você não precisa de encaminhamento médico para fazer procedimentos estéticos como Limpeza de Pele, Peeling, Preenchimento ou Botox. No entanto, é necessário passar por uma avaliação com nosso dermatologista antes de procedimentos mais invasivos para verificar se você está apto e qual o melhor tratamento para seu caso.",
+    "category": "procedimentos",
+    "keywords": [
+      "encaminhamento",
+      "precisa",
+      "estético",
+      "médico",
+      "avaliação"
+    ]
+  },
+  {
+    "id": "faq-23",
+    "question": "Quais cuidados devo ter antes e depois de procedimentos estéticos?",
+    "answer": "ANTES: Evite exposição solar intensa, não use ácidos ou esfoliantes 3 dias antes, chegue com a pele limpa. Para Botox/Preenchimento: não consuma bebida alcoólica 24h antes. DEPOIS: Evite sol direto por 7 dias, use protetor solar FPS 50+, não manipule a área tratada, siga as orientações específicas dadas pelo profissional. Hidrate bem a pele.",
+    "category": "procedimentos",
+    "keywords": [
+      "cuidados",
+      "antes",
+      "depois",
+      "pós",
+      "pré",
+      "procedimento"
+    ]
+  },
+  {
+    "id": "faq-24",
+    "question": "Os procedimentos doem?",
+    "answer": "A maioria dos procedimentos causa pouco ou nenhum desconforto. Limpeza de Pele e Peeling podem causar leve ardência. Botox e Preenchimento são feitos com agulhas finas e causam apenas um leve incômodo, muitas vezes com anestésico tópico. Remoção de Verrugas é feita com anestesia local. Dermatologia é apenas consulta, sem dor. Sempre conversamos sobre seu conforto antes de iniciar.",
+    "category": "procedimentos",
+    "keywords": [
+      "dor",
+      "doí",
+      "anestesia",
+      "incomodo",
+      "desconforto"
+    ]
+  }
+]

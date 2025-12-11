@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  mongodb-test:
+    image: mongo:7.0
+    container_name: ai-cdr-mongodb-test
+    ports:
+      - "27018:27017"  # Porta diferente para não conflitar com MongoDB de desenvolvimento
+    environment:
+      MONGO_INITDB_DATABASE: ai-cdr-test
+    networks:
+      - test-network
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    tmpfs:
+      - /data/db  # Usar tmpfs para testes (mais rápido, dados não persistem)
+
+networks:
+  test-network:
+    driver: bridge
+

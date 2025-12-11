@@ -1,0 +1,124 @@
+# Workspace and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-debug.log
+specs.md
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Frontend specific
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.cache/
+
+# Backend (.NET)
+backend/bin/
+backend/obj/
+backend/[Bb]in/
+backend/[Oo]bj/
+backend/[Ll]og/
+backend/[Ll]ogs/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Test coverage
+coverage/
+*.cover
+*.coverage
+.nyc_output/
+htmlcov/
+
+# Orchestrator
+orchestrator/dist/
+orchestrator/node_modules/
+orchestrator/.env
+
+# Docker
+docker-compose.override.yml
+*.docker
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# MongoDB
+mongodb_data/
+mongo_data/
+
+# Qdrant
+qdrant_data/
+qdrant_storage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# OS specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.AppleDouble
+.LSOverride
+._*
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Sensitive data
+secrets/
+*.secrets
+credentials.json
+serviceAccount.json
