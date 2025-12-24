@@ -39,7 +39,17 @@ export interface ChatResponse {
         horario?: string;
     };
     /** Chamadas de função executadas */
-    functionCalls?: any[];
+    functionCalls?: FunctionCall[];
+}
+
+/**
+ * Representa uma chamada de função executada pelo agente
+ */
+export interface FunctionCall {
+    /** Nome da função */
+    functionName: string;
+    /** Parâmetros da função */
+    parameters: Record<string, unknown>;
 }
 
 // Agenda types

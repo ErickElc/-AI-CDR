@@ -178,7 +178,7 @@ export class Agent {
     );
 
     // 🆕 Detectar cenário usando SOLID service
-    const scenario = this.scenarioDetector.detectScenario(session, extractedSlots) as any;
+    const scenario = this.scenarioDetector.detectScenario(session, extractedSlots);
     this.memory.updateContext(request.sessionId, { scenario });
 
     // Verificar fallback

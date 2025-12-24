@@ -84,6 +84,14 @@ public class AgendamentoServiceTests
             .Setup(r => r.CriarAsync(It.IsAny<Agendamento>()))
             .ReturnsAsync(agendamento);
 
+        _validacaoDadosServiceMock
+            .Setup(s => s.ValidarProcedimentoAsync(agendamento.Procedimento))
+            .ReturnsAsync((true, string.Empty));
+
+        _validacaoDadosServiceMock
+            .Setup(s => s.ValidarUnidadeAsync(agendamento.Unidade))
+            .ReturnsAsync((true, string.Empty));
+
         // Act
         var resultado = await _service.CriarAgendamentoAsync(agendamento);
 
@@ -155,6 +163,14 @@ public class AgendamentoServiceTests
             .Setup(s => s.ValidarDuplicidadeAsync(agendamento.NomePaciente, agendamento.Email, agendamento.DataHora, agendamento.Unidade))
             .ReturnsAsync(true);
 
+        _validacaoDadosServiceMock
+            .Setup(s => s.ValidarProcedimentoAsync(agendamento.Procedimento))
+            .ReturnsAsync((true, string.Empty));
+
+        _validacaoDadosServiceMock
+            .Setup(s => s.ValidarUnidadeAsync(agendamento.Unidade))
+            .ReturnsAsync((true, string.Empty));
+
         // Act
         var resultado = await _service.CriarAgendamentoAsync(agendamento);
 
@@ -190,6 +206,14 @@ public class AgendamentoServiceTests
             .Setup(r => r.CriarAsync(It.IsAny<Agendamento>()))
             .ReturnsAsync(agendamento);
 
+        _validacaoDadosServiceMock
+            .Setup(s => s.ValidarProcedimentoAsync(agendamento.Procedimento))
+            .ReturnsAsync((true, string.Empty));
+
+        _validacaoDadosServiceMock
+            .Setup(s => s.ValidarUnidadeAsync(agendamento.Unidade))
+            .ReturnsAsync((true, string.Empty));
+
         // Act
         var resultado = await _service.CriarAgendamentoAsync(agendamento);
 
@@ -221,6 +245,14 @@ public class AgendamentoServiceTests
         _validacaoAgendaServiceMock
             .Setup(s => s.ValidarDuplicidadeAsync(agendamento.NomePaciente, agendamento.Email, agendamento.DataHora, agendamento.Unidade))
             .ReturnsAsync(true);
+
+        _validacaoDadosServiceMock
+            .Setup(s => s.ValidarProcedimentoAsync(agendamento.Procedimento))
+            .ReturnsAsync((true, string.Empty));
+
+        _validacaoDadosServiceMock
+            .Setup(s => s.ValidarUnidadeAsync(agendamento.Unidade))
+            .ReturnsAsync((true, string.Empty));
 
         // Act
         var resultado = await _service.CriarAgendamentoAsync(agendamento);

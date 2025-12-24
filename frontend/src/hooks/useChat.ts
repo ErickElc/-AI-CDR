@@ -71,7 +71,7 @@ export const useChat = () => {
                 setIsTyping(false);
             }
         },
-        [sessionId, startNewConversation]
+        [sessionId]
     );
 
     return {
