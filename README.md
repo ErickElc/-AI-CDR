@@ -64,6 +64,26 @@ sequenceDiagram
     end
 ```
 
+
+---
+
+## 🤖 Core Capabilities
+
+AI-CDR goes beyond simple Q&A. It is designed to handle complex, multi-turn scheduling scenarios.
+
+### 📅 Smart Scheduling
+*   **Natural Language Entry**: "I want to see a dermatologist next Tuesday afternoon."
+*   **Conflict Resolution**: Automatically detects double bookings and suggests alternative slots.
+*   **Multi-Step Slot Filling**: Patiently asks for missing details (Procedure, Unit, Time) without losing context.
+
+### 📚 Contextual & Policy Intelligence
+*   **RAG (Retrieval Augmented Generation)**: Instantly recalls clinic policies (e.g., "Do you accept insurance?", "What is the price of a cleaning?").
+*   **Personalization**: Remembers returning patients' preferred units and doctors.
+
+### 🔄 Proactive Clarification
+*   **Ambiguity Resolution**: If a user says "Book it", but the time is vague, the AI asks "Did you mean the 10:00 AM or 2:00 PM slot?"
+*   **Validation**: Verifies that the requested procedure is actually performed at the selected unit.
+
 ---
 
 ## ✨ Key Features
@@ -161,3 +181,23 @@ This project adheres to strict production standards:
 *   **Memory Safety:** The Frontend handles component unmounting gracefully to avoid memory leaks.
 *   **Validation:** All AI inputs are validated against schema before hitting the Backend.
 *   **Isolation:** The LLM has **zero direct access** to the Database. It can only request actions via the .NET API.
+
+---
+
+
+---
+
+## 🚀 System Capabilities
+
+The system implements a complete autonomous agency workflow:
+
+| Capability | How it Works |
+| :--- | :--- |
+| **End-to-End Flow** | Manages the full patient lifecycle autonomously: **Reception → Data Collection → Availability Search → Confirmation → Booking**. |
+| **Knowledge Base (RAG)** | Retrieves context from clinic policies and FAQs dynamically using **Qdrant** + **OpenAI Embeddings** before every response. |
+| **Contextual Memory** | Maintains conversation state across turns (Short-term) and remembers user history/preferences (Long-term VectorDB). |
+| **External Integrations** | The AI autonomously executes tools to **check availability**, **create appointments**, and **list units** via the .NET API. |
+| **Smart Slot Filling** | Intelligent extraction of `name`, `procedure`, `unit`, and `time`, persisting data naturally across multi-turn conversations. |
+| **Safety Net** | Automatically detects when the AI is confused (e.g., 3 retries) and flags the session for **Human Intervention** (Hand-off). |
+
+
